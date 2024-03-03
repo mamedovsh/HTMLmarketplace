@@ -1,0 +1,308 @@
+// * {
+//     padding: 0;
+//     margin: 0;
+//     box-sizing: border-box;
+//     text-decoration: none;
+// }
+
+// body {
+//     scroll-behavior: smooth;
+//     text-rendering: optimizeSpeed;
+//     background: #ffffff;
+//     overflow-x: hidden;
+// }
+
+// img {
+//     display: block;
+//     max-width: 100%;
+// }
+
+// .container {
+//     width: 1140px;
+//     margin: 0 auto;
+// }
+// &__container{
+// /* Rectangle 25 */
+// position: absolute;
+// width: 1600px;
+// height: 75px;
+// left: 0%;
+// right: 0%;
+// top: 0%;
+// bottom: 0%;
+// }
+
+// &__navbar {
+//     background-color: #222222;
+//     height: 75px;
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+// &__navbar button {
+//     background-color: #222222;
+//     border: none;
+// }
+// #menu__toggle {
+//     opacity: 0;
+// }
+
+// #menu__toggle:checked ~ .menu__box {
+//     right: 0 !important;
+// }
+
+// .menu__btn {
+//     padding-right: 25px;
+// }
+// .menu__btn > span,
+// .menu__btn > span::before,
+// .menu__btn > span::after {
+//     display: block;
+//     position: absolute;
+//     width: 32px;
+//     height: 3px;
+//     background-color: #e8e8e8;
+//     transition-duration: 0.25s;
+// }
+
+// .menu__btn > span {
+//     margin-top: -5px;
+//     padding-right: 10px;
+// }
+// .menu__btn > span::before {
+//     content: "";
+//     top: -10px;
+// }
+// .menu__btn > span::after {
+//     content: "";
+//     top: 10px;
+// }
+// .menu__box {
+//     display: flex;
+//     position: absolute;
+//     flex-direction: column;
+//     top: 75px;
+//     right: -200%;
+//     width: 232px;
+//     height: 634px;
+//     margin: 0;
+//     padding-top: 32px;
+//     padding-left: 33px;
+//     list-style: none;
+//     background-color: #ffffff;
+//     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+//     transition-duration: 0.25s;
+//     z-index: 10;
+// }
+
+// .menu__box h2 {
+//     font-family: "Lato";
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 14px;
+//     line-height: 17px;
+//     color: #000000;
+// }
+
+// .menu__box h3 {
+//     font-family: "Lato";
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 17px;
+//     color: #f16d7f;
+//     padding-top: 20px;
+// }
+// .menu__item {
+//     display: block;
+//     padding-left: 20px;
+//     padding-top: 12px;
+//     font-family: "Lato";
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 17px;
+//     color: #6f6e6e;
+//     transition-duration: 0.25s;
+// }
+// .breadcrumb {
+//     /* Rectangle 23 */
+// position: absolute;
+// width: 1600px;
+// height: 148px;
+// left: 0%;
+// right: 0%;
+// top: 50.68%;
+// bottom: -50.68%;
+// background: rgb(248, 243, 244);
+// }
+// .breadcrumb__left {
+//     /* NEW ARRIVALS */
+// position: absolute;
+// width: 194px;
+// height: 29px;
+// left: 14.37%;
+// right: 73.5%;
+// top: 90.54%;
+// bottom: -10.14%;
+// color: rgb(241, 109, 127);
+// font-family: Lato;
+// font-size: 24px;
+// font-weight: 400;
+// line-height: 29px;
+// letter-spacing: 0%;
+// text-align: left;
+// }
+
+.breadcrumbs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 148px;
+    background-color: #f8f3f4;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        color: #f16d7f;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        
+    }
+
+    &__home,
+    &__men {
+        color: #636363;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    &__new_arrivals {
+        color: #F16D7F;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+.product__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F7F7;
+    height: 777px;
+    border: solid 1px #EAEAEA;
+    margin-bottom: -65px;
+
+    &__img {
+        height: 724px;
+    }
+}
+
+.product__mid {
+    align-items: center;
+    background-color: #FFF;
+    height: 600px;
+    border: solid 1px #EAEAEA;
+
+    &__title {
+        color: #F16D7F;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 12px;
+    }
+
+    &__reactangle {
+        width: 63px;
+        border: solid 1.6px #EF5B70;
+        margin-bottom: 12px;
+    }
+
+    &__name {
+        color: #4D4D4D;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 48px;
+    }
+
+    &__text {
+        color: #5E5E5E;
+        text-align: center;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        width: 555px;
+        margin-bottom: 32px;
+    }
+
+    &__price {
+        color: #EF5B70;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 65px;
+    }
+
+    &__line {
+        width: 640px;
+        border: solid 1px #EAEAEA;
+        margin-bottom: 65px;
+    }
+
+    &__nav {
+        display: flex;
+        gap: 42px;
+        margin-bottom: 48px;
+    }
+
+    &__button {
+        height: 48px;
+        width: 212px;
+        border: solid 1px #FF6A6A;
+        display: flex;
+
+        &__img {
+            padding-top: 6px;
+            padding-left: 24px;
+            padding-right: 23px;
+        }
+
+        &__text {
+            color: #F26376;
+            font-family: Lato;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding-top: 14px;
+        }
+    }
+}
