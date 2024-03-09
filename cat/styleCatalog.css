@@ -1,0 +1,120 @@
+.filter-sort {
+  display: flex;
+  margin-top: 39px;
+  margin-bottom: 64px;
+  position: relative;
+}
+
+.filter {
+  padding-top: 13px;
+  width: 360px;
+  position: absolute;
+  background-color: #fff;
+}
+.filter[open] {
+  transition: 0.3s;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+.filter[open] .filter__head {
+  color: #EF5B70;
+}
+.filter[open] path {
+  fill: #EF5B70;
+}
+.filter__summary {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding-left: 16px;
+}
+.filter__head {
+  color: #000;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.filter__content {
+  width: 360px;
+  padding: 0px 16px 16px;
+  background-color: #fff;
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+.filter__item[open] .filter__heading {
+  color: #EF5B70;
+}
+.filter__heading {
+  display: flex;
+  color: #6F6E6E;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 8px 11px 11px 11px;
+  border-bottom: 1px solid #EBEBEB;
+  border-left: 5px solid #EF5B70;
+}
+.filter__link-box {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  padding: 24px 16px;
+}
+.filter__link {
+  color: #6F6E6E;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sort {
+  display: flex;
+  position: absolute;
+  left: 490px;
+  top: 39px;
+}
+.sort__item {
+  display: flex;
+}
+
+.bott__content__containerc {
+  flex-direction: row;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  position: absolute;
+  width: 1140px;
+  height: 1749px;
+  left: 0px;
+  right: 260px;
+  top: -1000px;
+  bottom: 1400px;
+}
+
+.footer {
+  position: absolute;
+  width: 1590px;
+  height: 528px;
+  top: 2500px;
+}
+
+.pagination {
+  /* Pagination */
+position: absolute;
+width: 283.99px;
+height: 44px;
+left: 660px;
+right: 660px;
+top: 2400px;
+bottom: 145px;
+}
+/*# sourceMappingURL=styleCatalog.css.map */

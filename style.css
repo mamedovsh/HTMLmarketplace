@@ -6,6 +6,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  width: 1600px;
 }
 
 summary::-webkit-details-marker {
@@ -31,6 +32,7 @@ a {
   justify-content: space-between;
   align-items: center;
   max-width: 100%;
+  width: 1590px;
   height: 75px;
   background-color: #222;
 }
@@ -86,7 +88,7 @@ a {
   left: 230px;
   right: 230px;
 } */
-.breadcrumb__home, .breadcrumbs__men {
+.breadcrumb__home, .breadcrumb__men {
   color: #636363;
   font-family: Lato;
   font-size: 14px;
@@ -109,6 +111,7 @@ a {
   align-items: center;
   background-color: #F7F7F7;
   height: 777px;
+  width: 1600px;
   border: solid 1px #EAEAEA;
   margin-bottom: -65px;
 }
@@ -300,6 +303,7 @@ right: 230px;
 .top__content {
   display: flex;
   max-height: 764px;
+  width: 1600px;
   background-color: #f1e4e6;
   margin-bottom: 65px;
 }
@@ -424,11 +428,37 @@ right: 230px;
   justify-content: center;
   position: absolute;
   
-/* left: 230px;
-right: 230px;
-top: 1664px;
+  left: 230px;
+  right: 230px;
+  top: 1464px;
+  bottom: 655px;
+}
+
+.bott__content__container {
+  flex-direction: row;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  /* products */
+  position: absolute;
+  width: 1140px;
+  height: 1395px;
+  left: 30px;
+  right: 30px;
+  top: 148px;
+  bottom: 130px;
+  /* products */
+  /* position: absolute;
+  width: 1140px;
+  height: 581px;
+  left: 230px;
+  right: 230px;
+  top: 1664px;
 bottom: 655px; */
 }
+
 .bott__content__text {
   display: flex;
   flex-direction: column;
@@ -461,7 +491,7 @@ bottom: 655px; */
   height: 48px;
   border: 1px solid;
   border-color: #ff6a6a;
-  top: 3100px;
+  
   /* bottom: 900px; */
 }
 .bott__content__link__text {
@@ -479,29 +509,7 @@ bottom: 655px; */
   line-height: normal;
   background: transparent;
 }
-.bott__content__container {
-  flex-direction: row;
-  margin-bottom: 48px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  /* products */
-  position: absolute;
-  width: 1140px;
-  height: 1395px;
-  left: 230px;
-  top: 230px;
-  bottom: 448px;
-  /* products */
-  /* position: absolute;
-  width: 1140px;
-  height: 581px;
-  left: 230px;
-  right: 230px;
-  top: 1664px;
-bottom: 655px; */
-}
+
 .bott__content__container__box {
   max-width: 360px;
   max-height: 581px;
@@ -544,7 +552,7 @@ bottom: 655px; */
 
 .footer {
   position: absolute;
-  width: 1600px;
+  width: 1590px;
   height: 528px;
   top: 3200px;
 }

@@ -1,0 +1,115 @@
+.filter-sort {
+    display: flex;
+    margin-top: 39px;
+    margin-bottom: 64px;
+    position: relative;
+}
+
+.filter {
+    padding-top: 13px;
+    width: 360px;
+    position: absolute;
+    background-color: #fff;
+
+    &[open] {
+        transition: 0.3s;
+        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    }
+
+    &[open] .filter__head {
+        color: #EF5B70;
+    }
+
+    &[open] path {
+        fill: #EF5B70;
+    }
+
+    &__summary {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+        padding-left: 16px;
+    }
+
+    &__head {
+        color: #000;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    &__content {
+        width: 360px;
+        padding: 0px 16px 16px;
+        background-color: #fff;
+        padding-top: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+    }
+
+
+    &__item[open] .filter__heading {
+        color: #EF5B70;
+    }
+
+
+    &__heading {
+        display: flex;
+        color: #6F6E6E;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 8px 11px 11px 11px;
+        border-bottom: 1px solid #EBEBEB;
+        border-left: 5px solid #EF5B70;
+    }
+
+    &__link-box {
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+        padding: 24px 16px;
+    }
+
+    &__link {
+        color: #6F6E6E;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.sort {
+    display: flex;
+    position: absolute;
+    left: 490px;
+    top: 39px;
+ 
+    &__item {
+        display: flex;
+    }
+}
+ .bott__content {
+     &__containerc{
+  flex-direction: row;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  position: absolute;
+  width: 1140px;
+  height: 1749px;
+  left: 230px;
+  right: 230px;
+  top: -500px;
+  bottom: 1400px;
+     }
+}
