@@ -1,0 +1,369 @@
+.breadcrumb {
+    /* Rectangle 23 */
+    position: absolute;
+    width: 1600px;
+    height: 148px;
+    left: 0%;
+    right: 0%;
+    top: 75px;
+    
+    background: rgb(248, 243, 244);
+
+    &__left {
+        /* NEW ARRIVALS */
+        position: absolute;
+        width: 194px;
+        height: 29px;
+        left: 14.37%;
+        right: 73.5%;
+        top: 44.59%;
+        color: rgb(241, 109, 127);
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+
+    
+.cart__block__top {
+    width: 652px;
+    height: 306px;
+    margin-top: 230px;
+    margin-left: 230px;
+    box-shadow: 10px 5px 5px gray;
+        
+    
+    &__left {
+        /* Rectangle 15 copy */
+        position: absolute;
+        width: 262px;
+        height: 306px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    &__info {
+        /* Rectangle 31 */
+        position: absolute;
+        flex-direction: column;
+        width: 390px;
+        height: 306px;
+        margin-left: 280px;
+        margin-top: 20px;
+        
+    }
+    &__close {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        top: 10px;
+        right: 40px;
+    }
+}
+.cart__block__bot {
+    width: 652px;
+    height: 306px;
+    margin-top: 45px;
+    margin-left: 230px;
+    box-shadow: 10px 5px 5px gray;
+    
+
+    &__left {
+        
+        /* Rectangle 15 copy */
+        position: absolute;
+        width: 262px;
+        height: 306px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    &__info {
+        /* Rectangle 31 */
+        position: absolute;
+        width: 390px;
+        height: 306px;
+        margin-left: 280px;
+        margin-top: 20px;
+        
+    }
+    &__close {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        top: 10px;
+        right: 40px;
+    }
+}
+
+.form {
+    /* Shipping Address */
+    position: absolute;
+    width: 360px;
+    height: 272px;
+    left: 1010px;
+    top: 336px;
+
+}
+h6 {
+    color: rgb(34, 34, 34);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+input {
+    // display: block;
+    position: absolute;
+   
+    gap: 30px;
+    width: 360px;
+    height: 45px;
+    
+    
+}
+.State {
+    top: 80px;
+}
+.Postcode {
+    top: 140px;
+}
+button {
+    width: 102px;
+    height: 35px;
+    border: 1px gray;
+    margin-top: 130px;
+    
+}
+
+
+.total {
+    position: absolute;
+    width: 360px;
+    height: 214px;
+    top: 665px;
+    left: 1000px;
+    border: 3px dashed gray;
+    &__sub {
+        position: absolute;
+        width: 108px;
+        height: 20px;
+        top: 39px;
+        left: 218px;
+    }
+    &__grand {
+        position: absolute;
+        width: 170px;
+        height: 19px;
+        top: 64px;
+        left: 153px;
+    }
+    &__shape {
+        position: absolute;
+        width: 275px;
+        height: 1px;
+        top: 104px;
+        left: 43px;
+    }
+    button {
+        position: absolute;
+        width: 273px;
+        height: 50px;
+        top: -12px;
+        left: 44px;
+        background: rgb(241, 109, 127);;
+
+    }
+}
+.clear {
+    position: absolute;
+    width: 235px;
+    height: 50px;
+    margin-top: -60px;
+    margin-left: 230px;
+    button {
+        width: 235px;
+        height: 50px;
+
+
+    }
+}
+.continue {
+    position: absolute;
+    width: 225px;
+    height: 50px;
+    margin-top: -60px;
+    margin-left: 650px;
+    button {
+        width: 235px;
+        height: 50px;
+    }
+}
+
+.footer {
+    position: absolute;
+    width: 1590px;
+    height: 528px;
+    top: 1200px;
+      
+      &__top {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        height: 341px;
+        background-color: #222224;
+        gap: 30px;
+      }
+      &__top__img__1 {
+        margin-top: 103px;
+        padding-bottom: 28px;
+      }
+      &__top__img__2 {
+        margin-top: 103px;
+        padding-bottom: 19px;
+      }
+      &__top__img__3 {
+        margin-top: 103px;
+        padding-bottom: 25px;
+      }
+      &__top__text {
+        color: #fbfbfb;
+        font-family: Lato;
+        font-size: 13.972px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 104px;
+      }
+      &__top__text__big {
+        color: #fbfbfb;
+        font-family: Lato;
+        font-size: 19.96px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-bottom: 16px;
+      }
+      &__top__left {
+        max-width: 360px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      &__top__mid {
+        max-width: 360px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      &__top__right {
+        max-width: 360px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      &__mid {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 448px;
+        background: rgba(244, 244, 244, 0.7);
+        position: relative;
+      }
+      &__mid__background__img {
+        z-index: -1;
+        max-width: 100%;
+        overflow: clip;
+        position: absolute;
+        -o-object-fit: cover;
+           object-fit: cover;
+      }
+      &__mid__left {
+        max-width: 360px;
+        height: 225px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 228px;
+      }
+      &__mid__left__img {
+        padding-bottom: 30px;
+      }
+      &__mid__left__text {
+        color: #222224;
+        text-align: center;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      &__mid__left__text__italic {
+        font-style: italic;
+      }
+      &__mid__right {
+        max-width: 557px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-right: 230px;
+      }
+      &__mid__right__header {
+        color: #222224;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 167.2%;
+        /* 40.128px */
+      }
+      &__mid__right__text {
+        color: #222224;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167.2%;
+        padding-left: 106px;
+        padding-right: 106px;
+        padding-bottom: 32px;
+      }
+        &__bott {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 79px;
+            background-color: #222224;
+        }
+        &__bott__left {
+            display: flex;
+            color: #fbfbfb;
+            font-family: Lato;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-left: 235px;
+        }
+        &__bott__right {
+            display: flex;
+            margin-right: 230px;
+            gap: 7px;
+        }
+    }

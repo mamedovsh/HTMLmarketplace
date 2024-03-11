@@ -94,27 +94,8 @@
   position: absolute;
   width: 1140px;
   height: 1749px;
-  left: 0px;
-  right: 260px;
-  top: -1000px;
+  left: 230px;
+  right: 230px;
+  top: -500px;
   bottom: 1400px;
-}
-
-.footer {
-  position: absolute;
-  width: 1590px;
-  height: 528px;
-  top: 2500px;
-}
-
-.pagination {
-  /* Pagination */
-position: absolute;
-width: 283.99px;
-height: 44px;
-left: 660px;
-right: 660px;
-top: 2400px;
-bottom: 145px;
-}
-/*# sourceMappingURL=styleCatalog.css.map */
+}/*# sourceMappingURL=styleCatalog.css.map */
