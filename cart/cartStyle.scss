@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .breadcrumb {
     /* Rectangle 23 */
     position: absolute;
@@ -118,171 +123,173 @@ h6 {
     text-align: left;
 }
 input {
-    // display: block;
-    position: absolute;
+// display: block;
+  position: absolute;
    
-    gap: 30px;
-    width: 360px;
-    height: 45px;
+  gap: 30px;
+  width: 360px;
+  height: 45px;
     
     
 }
 .State {
-    top: 80px;
+  top: 80px;
 }
 .Postcode {
-    top: 140px;
+  top: 140px;
 }
-button {
-    width: 102px;
-    height: 35px;
-    border: 1px gray;
-    margin-top: 130px;
+.get {
+  width: 100px;
+  height: 35px;
+  border: 1px gray;
+  margin-top: 180px;
     
 }
 
 
 .total {
-    position: absolute;
-    width: 360px;
-    height: 214px;
-    top: 665px;
-    left: 1000px;
-    border: 3px dashed gray;
+  position: absolute;
+  width: 360px;
+  height: 214px;
+  top: 665px;
+  left: 1000px;
+  border: 3px dashed gray;
     &__sub {
-        position: absolute;
-        width: 108px;
-        height: 20px;
-        top: 39px;
-        left: 218px;
+      position: absolute;
+      width: 108px;
+      height: 20px;
+      top: 39px;
+      left: 218px
     }
     &__grand {
-        position: absolute;
-        width: 170px;
-        height: 19px;
-        top: 64px;
-        left: 153px;
+      position: absolute;
+      width: 170px;
+      height: 19px;
+      top: 64px;
+      left: 153px;
     }
     &__shape {
-        position: absolute;
-        width: 275px;
-        height: 1px;
-        top: 104px;
-        left: 43px;
+      position: absolute;
+      width: 275px;
+      height: 1px;
+      top: 104px;
+      left: 43px;
     }
-    button {
-        position: absolute;
-        width: 273px;
-        height: 50px;
-        top: -12px;
-        left: 44px;
-        background: rgb(241, 109, 127);;
+    &__button {
+      position: absolute;
+      width: 273px;
+      height: 50px;
+      top: 120px;
+      left: 44px;
+      background: rgb(241, 109, 127);;
 
     }
 }
+
 .clear {
-    position: absolute;
+  position: absolute;
+  width: 235px;
+  height: 50px;
+  margin-top: 60px;
+  margin-left: 230px;
+    
+  }
+.button {
+  width: 235px;
+  height: 50px;
+
+
+  }
+.continue {
+  position: absolute;
+  width: 225px;
+  height: 50px;
+  margin-top: -60px;
+  margin-left: 650px;
+  &__button {
     width: 235px;
     height: 50px;
-    margin-top: -60px;
-    margin-left: 230px;
-    button {
-        width: 235px;
-        height: 50px;
-
-
-    }
-}
-.continue {
-    position: absolute;
-    width: 225px;
-    height: 50px;
-    margin-top: -60px;
-    margin-left: 650px;
-    button {
-        width: 235px;
-        height: 50px;
-    }
+  }
 }
 
 .footer {
-    position: absolute;
-    width: 1590px;
-    height: 528px;
-    top: 1200px;
+  position: absolute;
+  width: 1590px;
+  height: 528px;
+  top: 1200px;
       
-      &__top {
-        display: flex;
-        justify-content: center;
-        max-width: 100%;
-        height: 341px;
-        background-color: #222224;
-        gap: 30px;
+    &__top {
+      display: flex;
+      justify-content: center;
+      max-width: 100%;
+      height: 341px;
+      background-color: #222224;
+      gap: 30px;
       }
-      &__top__img__1 {
-        margin-top: 103px;
-        padding-bottom: 28px;
-      }
-      &__top__img__2 {
-        margin-top: 103px;
-        padding-bottom: 19px;
-      }
-      &__top__img__3 {
-        margin-top: 103px;
-        padding-bottom: 25px;
-      }
-      &__top__text {
-        color: #fbfbfb;
-        font-family: Lato;
-        font-size: 13.972px;
-        font-style: normal;
-        font-weight: 300;
-        line-height: normal;
-        padding-left: 30px;
-        padding-right: 30px;
-        margin-bottom: 104px;
-      }
-      &__top__text__big {
-        color: #fbfbfb;
-        font-family: Lato;
-        font-size: 19.96px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        padding-bottom: 16px;
-      }
-      &__top__left {
-        max-width: 360px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-      }
-      &__top__mid {
-        max-width: 360px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-      }
-      &__top__right {
-        max-width: 360px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-      }
-      &__mid {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        height: 448px;
-        background: rgba(244, 244, 244, 0.7);
-        position: relative;
-      }
+    &__top__img__1 {
+      margin-top: 103px;
+      padding-bottom: 28px;
+    }
+    &__top__img__2 {
+      margin-top: 103px;
+      padding-bottom: 19px;
+    }
+    &__top__img__3 {
+      margin-top: 103px;
+      padding-bottom: 25px;
+    }
+    &__top__text {
+      color: #fbfbfb;
+      font-family: Lato;
+      font-size: 13.972px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-bottom: 104px;
+    }
+    &__top__text__big {
+      color: #fbfbfb;
+      font-family: Lato;
+      font-size: 19.96px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      padding-bottom: 16px;
+    }
+    &__top__left {
+      max-width: 360px;
+      display: flex;
+      flex-direction: colum
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    &__top__mid {
+      max-width: 360px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    &__top__right {
+      max-width: 360px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    &__mid {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 448px;
+      background: rgba(244, 244, 244, 0.7);
+      position: relative;
+    }
       &__mid__background__img {
         z-index: -1;
         max-width: 100%;

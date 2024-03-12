@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .breadcrumb {
   /* Rectangle 23 */
   position: absolute;
@@ -122,11 +127,11 @@ input {
   top: 140px;
 }
 
-button {
-  width: 102px;
+.get {
+  width: 100px;
   height: 35px;
   border: 1px gray;
-  margin-top: 130px;
+  margin-top: 180px;
 }
 
 .total {
@@ -158,23 +163,26 @@ button {
   top: 104px;
   left: 43px;
 }
-.total button {
+.total__button {
   position: absolute;
   width: 273px;
   height: 50px;
-  top: -12px;
+  top: 120px;
   left: 44px;
   background: rgb(241, 109, 127);
+  background-size: cover;
+  
 }
 
 .clear {
   position: absolute;
   width: 235px;
   height: 50px;
-  margin-top: -60px;
+  margin-top: 60px;
   margin-left: 230px;
 }
-.clear button {
+
+.button {
   width: 235px;
   height: 50px;
 }
@@ -183,10 +191,10 @@ button {
   position: absolute;
   width: 225px;
   height: 50px;
-  margin-top: -60px;
+  margin-top: 60px;
   margin-left: 650px;
 }
-.continue button {
+.continue__button {
   width: 235px;
   height: 50px;
 }
