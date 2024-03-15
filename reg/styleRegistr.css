@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumb {
+  /* Rectangle 23 */
+  position: absolute;
+  width: 1600px;
+  height: 148px;
+  left: 0%;
+  right: 0%;
+  top: 75px;
+  background: rgb(248, 243, 244);
+}
+.breadcrumb__left {
+  /* NEW ARRIVALS */
+  position: absolute;
+  width: 194px;
+  height: 29px;
+  left: 14.37%;
+  right: 73.5%;
+  top: 44.59%;
+  color: rgb(241, 109, 127);
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.form {
+  /* Shipping Address */
+  position: absolute;
+  width: 360px;
+  height: 149px;
+  left: 230px;
+  top: 280px;
+}
+
+input {
+  position: absolute;
+  gap: 30px;
+  width: 360px;
+  height: 45px;
+}
+
+.first {
+  top: 20px;
+}
+
+.last {
+  top: 80px;
+}
+
+.male {
+  /* Group 47 */
+  position: absolute;
+  width: 132px;
+  height: 17px;
+  left: 231px;
+  right: 1237px;
+  top: 440px;
+  bottom: 941px;
+  margin-left: 20px;
+}
+.male input {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  margin-left: -20px;
+}
+
+.female {
+  /* Female */
+  position: absolute;
+  width: 34px;
+  height: 13px;
+  left: 329px;
+  right: -231px;
+  top: 440px;
+  bottom: -466px;
+  margin-left: 20px;
+}
+.female input {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  margin-left: -20px;
+}
+
+.log {
+  position: absolute;
+  width: 135.89px;
+  height: 19px;
+  top: 520px;
+  left: 230px;
+}
+
+.e-mail {
+  /* Vector */
+  position: absolute;
+  width: 360px;
+  height: 45px;
+  left: 231px;
+  top: 556px;
+}
+
+.password {
+  position: absolute;
+  width: 360px;
+  height: 45px;
+  left: 231px;
+  top: 620px;
+}
+
+.loyalty {
+  /* Group 49 */
+  position: absolute;
+  width: 652px;
+  height: 334px;
+  left: 718px;
+  right: 230px;
+  top: 287px;
+  bottom: 804px;
+  gap: 30px;
+}
+.loyalty h2 {
+  /* LOYALTY HAS ITS PERKS */
+  bottom: 18px;
+  color: rgb(0, 0, 0);
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.loyalty label {
+  font: 1rem "Fira Sans", sans-serif;
+  bottom: 18px;
+  color: rgb(0, 0, 0);
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.loyalty input {
+  margin: 0.4rem;
+  padding: 10px;
+}
+
+.instruction {
+  position: absolute;
+  width: 359px;
+  height: 32px;
+  left: 231px;
+  right: 1010px;
+  top: 681px;
+  bottom: 712px;
+  color: rgb(177, 177, 177);
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.join {
+  position: absolute;
+  width: 167px;
+  height: 50px;
+  top: 750px;
+  left: 230px;
+  background: rgb(241, 109, 127);
+  width: 167px;
+  height: 50px;
+}
+
+.footer {
+  /* Rectangle 26 */
+  position: absolute;
+  width: 1600px;
+  height: 448px;
+  left: 0px;
+  right: 0px;
+  top: 880px;
+  bottom: 0px;
+}/*# sourceMappingURL=styleRegistr.css.map */

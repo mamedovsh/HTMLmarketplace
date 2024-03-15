@@ -16,7 +16,7 @@
 
     &__left {
         /* NEW ARRIVALS */
-        position: absolute;
+        display: flex;
         width: 194px;
         height: 29px;
         left: 14.37%;
@@ -129,8 +129,6 @@ input {
   gap: 30px;
   width: 360px;
   height: 45px;
-    
-    
 }
 .State {
   top: 80px;
@@ -143,7 +141,7 @@ input {
   height: 35px;
   border: 1px gray;
   margin-top: 180px;
-    
+  border: 0.5px solid black;
 }
 
 

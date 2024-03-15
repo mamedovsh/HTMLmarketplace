@@ -6,7 +6,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  width: 1600px;
+  width: 1640px;
 }
 
 summary::-webkit-details-marker {
@@ -24,7 +24,7 @@ a {
 
 .center {
   margin: 0 auto;
-  max-width: 1600px;
+  max-width: 1640px;
 }
 
 .header {
@@ -32,7 +32,7 @@ a {
   justify-content: space-between;
   align-items: center;
   max-width: 100%;
-  width: 1590px;
+  width: 1640px;
   height: 75px;
   background-color: #222;
 }
@@ -111,7 +111,7 @@ a {
   align-items: center;
   background-color: #F7F7F7;
   height: 777px;
-  width: 1600px;
+  width: 1640px;
   border: solid 1px #EAEAEA;
   margin-bottom: -65px;
 }
@@ -303,7 +303,7 @@ right: 230px;
 .top__content {
   display: flex;
   max-height: 764px;
-  width: 1600px;
+  width: 1640px;
   background-color: #f1e4e6;
   margin-bottom: 65px;
 }
@@ -552,7 +552,7 @@ bottom: 655px; */
 
 .footer {
   position: absolute;
-  width: 1590px;
+  width: 1640px;
   height: 528px;
   top: 3200px;
 }
