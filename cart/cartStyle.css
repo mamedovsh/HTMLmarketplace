@@ -3,9 +3,30 @@
   padding: 0;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1600px;
+  height: 75px;
+  background-color: #222;
+}
+.header__left {
+  display: flex;
+  margin-left: 14.44%;
+  margin-right: 53.7%;
+  gap: 41px;
+  align-items: center;
+}
+.header__right {
+  display: flex;
+  margin-right: 15%;
+  gap: 33px;
+}
+
 .breadcrumb {
   /* Rectangle 23 */
-  position: absolute;
+  display: block;
   width: 1600px;
   height: 148px;
   left: 0%;
@@ -14,13 +35,10 @@
   background: rgb(248, 243, 244);
 }
 .breadcrumb__left {
-  /* NEW ARRIVALS */
-  position: absolute;
   width: 194px;
   height: 29px;
-  left: 14.37%;
-  right: 73.5%;
-  top: 44.59%;
+  padding-left: 230px;
+  padding-top: 59px;
   color: rgb(241, 109, 127);
   font-family: Lato;
   font-size: 24px;
@@ -30,79 +48,85 @@
   text-align: left;
 }
 
-.cart__block__top {
+.cart__block {
+  display: grid;
+  grid-template-columns: repeat(2);
+}
+.cart__block .cart__block__top {
+  display: block;
   width: 652px;
   height: 306px;
   margin-top: 230px;
   margin-left: 230px;
   box-shadow: 10px 5px 5px gray;
 }
-.cart__block__top__left {
+.cart__block .cart__block__top__left {
   /* Rectangle 15 copy */
-  position: absolute;
+  display: flex;
   width: 262px;
   height: 306px;
   margin-left: 0px;
   margin-top: 0px;
 }
-.cart__block__top__info {
+.cart__block .cart__block__top__info {
   /* Rectangle 31 */
-  position: absolute;
+  display: flex;
   flex-direction: column;
-  width: 390px;
-  height: 306px;
+  width: 262px;
+  height: 222px;
   margin-left: 280px;
-  margin-top: 20px;
+  margin-top: -280px;
 }
-.cart__block__top__close {
-  position: absolute;
+.cart__block .cart__block__top__close {
+  display: flex;
   width: 18px;
   height: 18px;
-  top: 10px;
-  right: 40px;
+  margin-top: -240px;
+  margin-left: 340px;
 }
-
-.cart__block__bot {
+.cart__block .cart__block__bot {
+  display: block;
   width: 652px;
   height: 306px;
   margin-top: 45px;
   margin-left: 230px;
   box-shadow: 10px 5px 5px gray;
 }
-.cart__block__bot__left {
+.cart__block .cart__block__bot__left {
   /* Rectangle 15 copy */
-  position: absolute;
+  display: flex;
   width: 262px;
   height: 306px;
   margin-left: 0px;
   margin-top: 0px;
 }
-.cart__block__bot__info {
+.cart__block .cart__block__bot__info {
   /* Rectangle 31 */
-  position: absolute;
-  width: 390px;
-  height: 306px;
+  display: flex;
+  width: 262px;
+  height: 222px;
   margin-left: 280px;
-  margin-top: 20px;
+  margin-top: -280px;
 }
-.cart__block__bot__close {
-  position: absolute;
+.cart__block .cart__block__bot__close {
+  display: flex;
   width: 18px;
   height: 18px;
-  top: 10px;
-  right: 40px;
+  margin-top: -240px;
+  margin-left: 620px;
 }
 
 .form {
   /* Shipping Address */
-  position: absolute;
+  display: flex;
+  flex-direction: column;
   width: 360px;
   height: 272px;
-  left: 1010px;
-  top: 336px;
+  margin-left: 1010px;
+  margin-top: -770px;
+  gap: 20px;
 }
-
-h6 {
+.form h6 {
   color: rgb(34, 34, 34);
   font-family: Lato;
   font-size: 16px;
@@ -111,104 +135,103 @@ h6 {
   letter-spacing: 0%;
   text-align: left;
 }
-
-input {
-  position: absolute;
+.form input {
+  display: flex;
+  flex-direction: column;
   gap: 30px;
   width: 360px;
   height: 45px;
 }
-
-.State {
-  top: 80px;
+.form__State {
+  top: 100px;
 }
-
-.Postcode {
-  top: 140px;
+.form__Postcode {
+  top: 160px;
 }
-
-.get {
+.form__get {
   width: 100px;
   height: 35px;
   border: 1px gray;
   margin-top: 180px;
+  border: 0.5px solid black;
 }
 
 .total {
-  position: absolute;
+  display: block;
   width: 360px;
   height: 214px;
-  top: 665px;
-  left: 1000px;
+  margin-left: 1010px;
+  margin-top: -400px;
   border: 3px dashed gray;
 }
 .total__sub {
-  position: absolute;
+  display: flex;
   width: 108px;
   height: 20px;
-  top: 39px;
-  left: 218px;
+  margin-top: 39px;
+  margin-left: 230px;
 }
 .total__grand {
-  position: absolute;
+  display: flex;
   width: 170px;
   height: 19px;
-  top: 64px;
-  left: 153px;
+  margin-top: 10px;
+  margin-left: 170px;
 }
 .total__shape {
-  position: absolute;
+  display: flex;
   width: 275px;
   height: 1px;
-  top: 104px;
-  left: 43px;
+  margin-top: 20px;
+  margin-left: 80px;
 }
 .total__button {
-  position: absolute;
+  display: flex;
   width: 273px;
   height: 50px;
-  top: 120px;
-  left: 44px;
+  margin-top: 10px;
+  margin-left: 40px;
   background: rgb(241, 109, 127);
-  background-size: cover;
-  
 }
 
-.clear {
-  position: absolute;
+.twobutt {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+}
+.twobutt .clear {
+  display: flex;
   width: 235px;
   height: 50px;
   margin-top: 60px;
   margin-left: 230px;
 }
-
-.button {
+.twobutt .clear__button {
   width: 235px;
   height: 50px;
 }
-
-.continue {
-  position: absolute;
+.twobutt .continue {
+  display: flex;
   width: 225px;
   height: 50px;
   margin-top: 60px;
-  margin-left: 650px;
+  margin-left: 190px;
 }
-.continue__button {
+.twobutt .continue__button {
   width: 235px;
   height: 50px;
 }
 
 .footer {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
   width: 1590px;
   height: 528px;
-  top: 1200px;
+  top: 1300px;
 }
 .footer__top {
   display: flex;
   justify-content: center;
-  max-width: 100%;
   height: 341px;
   background-color: #222224;
   gap: 30px;
@@ -359,4 +382,64 @@ input {
   display: flex;
   margin-right: 230px;
   gap: 7px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    width: 100%;
+    left: 0%;
+    right: 0%;
+  }
+  .center {
+    display: grid;
+    grid-template-columns: repeat(1);
+  }
+  .breadcrumb {
+    width: 100%;
+    padding: 0 0;
+  }
+  .cart__block {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(1);
+  }
+  .cart__block .cart__block__top {
+    width: 652px;
+    height: 306px;
+  }
+  .cart__block .form {
+    margin-top: 150px;
+    margin-left: 200px;
+  }
+  .cart__block .total {
+    margin-top: 150px;
+    margin-left: 0px;
+  }
+  .footer {
+    top: 3500px;
+  }
+  .footer__top {
+    display: grid;
+    grid-template-columns: repeat(3);
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .footer__mid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: -moz-max-content;
+    height: max-content;
+    align-content: center;
+  }
+  .footer__bott {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: -moz-max-content;
+    height: max-content;
+    align-items: center;
+  }
+  .cart__block {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }/*# sourceMappingURL=cartStyle.css.map */

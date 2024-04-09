@@ -7,6 +7,7 @@
 
 body {
     font-family: "Open Sans", sans-serif;
+    width: 1600px;
 }
 
 summary::-webkit-details-marker {
@@ -25,6 +26,7 @@ a {
 .center {
     margin: 0 0;
     max-width: 1600px;
+   
 }
 
 .header {
@@ -185,10 +187,17 @@ a {
 }
 
 .bott__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    display: block;
+    width: 1140px;
+    height: 1749px;
+    left: 230px;
+    right: 230px;
+    top: 355px;
+    bottom: 1111px;
 
     &__text {
         display: flex;
@@ -243,12 +252,25 @@ a {
     }
 
     &__container {
-        margin-bottom: 48px;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+        // margin-bottom: 48px;
+        // display: grid;
+        // grid-template-columns: repeat(3, 1fr);
+        // justify-content: center;
+        // flex-wrap: wrap;
+        // gap: 30px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+            // margin-bottom: 48px;
+            // justify-content: center;
+            // flex-wrap: wrap;
+        align-items: center;
         gap: 30px;
-
+        width: 1400px;
+        height: 1749px;
+        left: 230px;
+        right: 230px;
+        top: 300px;
+        // bottom: 1111px    
         &__box {
             max-width: 360px;
             max-height: 581px;
@@ -470,6 +492,61 @@ a {
             gap: 7px;
         }
     }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    html{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.5rem;
+    }
+    .header{
+        width: 100%;
+        left: 0%;
+        right: 0%;
+    }
+    .breadcrumb{
+        width: 100%;
+        // flex-direction: column;
+        // left: 0%;
+        // right: 0%;
+        padding: 0 0;
+    }
+    .product__top{
+        width: 100%;
+    }
+    
+    .bott__content__container{
+        // display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 30px;
+        width: 100vw;
+        &__box{
+            width: 360px;
+            height: 581px;
+        }
+    }
+    // .footer{
+    //     top: 3500px;
+    // }
+    // .footer__top{
+    //     display: grid;
+    //     grid-template-columns: repeat(3);
+    //     height: max-content;
+        
+    // }
+    // .footer__mid{
+    //     display: grid;
+    //     grid-template-columns: repeat(2);
+    //     height: max-content;
+    //     align-items: center;
+    // }
 }
 
 
